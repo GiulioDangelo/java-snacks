@@ -6,7 +6,7 @@ public class OddSum {
         int sum = 0;
 
         for (int i = 0; i < num.length; i++) {
-            if (num[i] % 2 == 1) {
+            if (i % 2 == 1) {
                 sum += num[i];
             }
         }
